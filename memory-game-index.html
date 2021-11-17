@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory</title>
+    <link rel="stylesheet" href="./memory-style.css">
+  
+</head>
+<body>
+  <div id="main-container">
+    <div class= "button-container " id="button-container-start">
+      <div class="start-page" id="start-page">
+        <div class="button visible " id="click-to-start">Klicke hier, um zu starten!</div>
+      </div>
+      <div class="game-finish" id="game-finish">
+        <div class="button visible" id="click-to-finish">Herzlichen Glückwunsch!<small>Klicke hier, um nochmal zu spielen.</small></div>
+        <div>
+          <form action="https://agrarled.us20.list-manage.com/subscribe/post?u=7a1a45911075706fb8e1bc61f&amp;id=42343f5479" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+            <input type="text" placeholder="Vorname" name="FNAME" class="vragen-balk" id="mce-FNAME" required> <!-- Voornaam -->
+            <input type="text" placeholder="Nachname" name="LNAME" class="vragen-balk" id="mce-LNAME" required> <!-- Achternaam -->
+            <input type="email" placeholder="E-mail" name="EMAIL" class="vragen-balk" id="mce-EMAIL" required> <!-- E-mailadres -->
+            <input type="hidden" name="MMERGE5" class="" id="mce-MMERGE5"> <!-- Tijd -->
+            <input type="checkbox" name="" class="" id="" required>
+            <label id="checkbox">Ik ben 16 jaar of ouder en schrijf mij in voor de nieuwsbrief.</label>
+            <input type="submit" value="Subscribe" name="Subscribe" id="mc-embedded-subscribe" class="button-form">  <!-- Aanmelden -->
+        </form>
+        </div>
+      </div>
+    </div>
+    <div id="logo-container">
+      <img id="logo" src="afb-memory/Logo Agrarled.png">
+    </div>
+    <section class="memory-game">
+      <div class="memory-card " data-framework="tractor-1">
+          <img class="front-face" src="afb-memory/tractor-1.jpg" alt="tractor-1">
+          <img class="back-face" src="afb-memory/Achterkant.jpg" alt="Achterkant">
+      </div>
+      <div class="memory-card" data-framework="tractor-1">
+          <img class="front-face" src="afb-memory/tractor-1.jpg" alt="tractor-1">
+          <img class="back-face" src="afb-memory/Achterkant.jpg" alt="Achterkant">
+      </div>
+      <div class= "memory-card" data-framework="tractor-2">
+          <img class="front-face" src="afb-memory/tractor-2.jpg" alt="tractor-2">
+          <img class="back-face" src="afb-memory/Achterkant.jpg" alt="Achterkant">
+      </div>
+      <div class="memory-card" data-framework="tractor-2">
+          <img class="front-face" src="afb-memory/tractor-2.jpg" alt="tractor-2">
+          <img class="back-face" src="afb-memory/Achterkant.jpg" alt="Achterkant">
+      </div>
+      <div class="memory-card" data-framework="tractor-3">
+          <img class="front-face" src="afb-memory/tractor-3.jpg" alt="tractor-3">
+          <img class="back-face" src="afb-memory/Achterkant.jpg" alt="Achterkant">
+      </div>
+      <div class="memory-card" data-framework="tractor-3">
+          <img class="front-face" src="afb-memory/tractor-3.jpg" alt="tractor-3">
+          <img class="back-face" src="afb-memory/Achterkant.jpg" alt="Achterkant">
+      </div>
+      <div class="memory-card" data-framework="tractor-4">
+          <img class="front-face" src="afb-memory/tractor-4.jpg" alt="tractor-4">
+          <img class="back-face" src="afb-memory/Achterkant.jpg" alt="Achterkant">
+      </div>
+      <div class="memory-card" data-framework="tractor-4">
+          <img class="front-face" src="afb-memory/tractor-4.jpg" alt="tractor-4">
+          <img class="back-face" src="afb-memory/Achterkant.jpg" alt="Achterkant">
+      </div>
+      <div class="memory-card" data-framework="tractor-5">
+          <img class="front-face" src="afb-memory/tractor-5.jpg" alt="tractor-5">
+          <img class="back-face" src="afb-memory/Achterkant.jpg" alt="Achterkant">
+      </div>
+      <div class="memory-card" data-framework="tractor-5">
+          <img class="front-face" src="afb-memory/tractor-5.jpg" alt="tractor-5">
+          <img class="back-face" src="afb-memory/Achterkant.jpg" alt="Achterkant">
+      </div>
+      <div class="memory-card" data-framework="tractor-6">
+          <img class="front-face" src="afb-memory/tractor-6.jpg" alt="tractor-6">
+          <img class="back-face" src="afb-memory/Achterkant.jpg" alt="Achterkant">
+      </div>
+      <div class="memory-card" data-framework="tractor-6">
+          <img class="front-face" src="afb-memory/tractor-6.jpg" alt="tractor-6">
+          <img class="back-face" src="afb-memory/Achterkant.jpg" alt="Achterkant">
+      </div>
+    </section>
+    <div class="game-info-container">
+      <div class="game-info">
+        Zeit: <span id="time">0</span>
+      </div>
+      <div class="game-info">
+        Züge: <span id= "plays">0</span>
+      </div>
+    </div>
+  </div>
+  <script src="memory-script.js"></script>
+</body>
+</html>
